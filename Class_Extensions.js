@@ -9,8 +9,8 @@ class Animal {
 }
 
 class Cat extends Animal {
-  constructor() {
-    super("Mr Whiskers");
+  constructor(name) {
+    super(name);
   }
   speak() {
     return super.speak() + this.name + " goes meow.";
